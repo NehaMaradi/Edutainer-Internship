@@ -1,0 +1,23 @@
+//NESTED-IF EXPRESSION
+fun main()
+{
+    val num1=25
+    val num2=20
+    val num3=30
+    if (num1>num2)
+    {
+        if (num1>num3)
+        {
+            print("a")
+        }
+        else{
+          print("b")
+        }
+    }
+    else if(num2>num3){
+        print("c")
+    }
+    else{
+    print("d")
+    }
+}
