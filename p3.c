@@ -32,6 +32,7 @@ struct TreeNode* createNode(int data)
     newNode->right=NULL;
     return newNode;
 }
+
 int main(){
     struct TreeNode* root = createNode(1);
     root->left = createNode(2);
